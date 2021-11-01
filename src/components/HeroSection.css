@@ -53,8 +53,10 @@
     color: #1c2237;
   }
   
-  .darkBg {
-    background-color: #1c2237;
+  .colorBg {
+    background-image: url(./assets/banner_princial.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .home__hero-subtitle {

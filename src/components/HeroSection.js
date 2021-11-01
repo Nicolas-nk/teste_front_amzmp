@@ -18,7 +18,7 @@ function HeroSection({
   return (
     <>
       <div
-        className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
+        className={lightBg ? 'home__hero-section' : 'home__hero-section colorBg'}
       >
         <div className='container'>
           <div
@@ -44,7 +44,7 @@ function HeroSection({
                   {description}
                 </p>
                 <Link to='/sign-up'>
-                  <Button buttonSize='btn--wide' buttonColor='blue'>
+                  <Button buttonSize='btn--wide' buttonColor='primary'>
                     {buttonLabel}
                   </Button>
                 </Link>
