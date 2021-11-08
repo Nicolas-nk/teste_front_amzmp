@@ -65,8 +65,9 @@ $ npm run start
 ## ⏱  Atualizações por vim
 
 * Aprimoramento da responsividade
-* Resolver bugs visuais em determinados tamanhos de telas
+* Resolução dos bugs visuais em determinados tamanhos de telas
 * Configuração das rotas para os links e botões
+* Refatoração de alguns trechos de código
 
 
 ## 📝 Ass
