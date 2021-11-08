@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+<h1 aling="center">
+     Aplicação web "WE:OOD"
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💻 Sobre
 
-## Available Scripts
+  Projeto de interface Front-end, contendo toda a estrutura visual do site da We:Food, realizado a fim de teste de nivelamento técnico do processo seletivo para a vaga de Front-End na AMZ|MP
 
-In the project directory, you can run:
+## 🛠 Tecnologias
 
-### `yarn start`
+As seguintes ferramentas foram usadas na construção do projeto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* **[Visual Studio Code](https://code.visualstudio.com/)**
+* **[React.js](https://pt-br.reactjs.org/)**
+* **[Node.js](https://nodejs.org/en/)**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+E as linguagens utilizadas foram:
 
-### `yarn test`
+* **HTML**
+* **CSS**
+* **JavaScript**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Como executar o projeto
 
-### `yarn build`
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/?WT.mc_id=javascript-9652-gllemos)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🧭 Rodando a aplicação web (Front End)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone este repositório
+$ git clone https://github.com/Nicolas-nk/teste_front_amzmp.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd teste_front_amzmp
 
-### `yarn eject`
+# Instale as dependências
+$ npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# O servidor inciará na porta:3000 - o seguinte aviso aparecerá: 
+# You can now view teste_front_amzmp in the browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#  http://localhost:3000
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Note that the development build is not optimized.
+# To create a production build, use yarn build.
 
-## Learn More
+# A página web abrirá automaticamente
+```
+## 🧩 layout
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Wefood" title="interface web" src="./public/images/screenshots/WeFood.png" width="400px">
+  
+  ./public/images/screanshots/WeFood.png
+</p>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ⏱  Atualizações por vim
 
-### Analyzing the Bundle Size
+* Aprimoramento da responsividade
+* Resolver bugs visuais em determinados tamanhos de telas
+* Configuração das rotas para os links e botões
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 📝 Ass
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤️ por Nicolas Messias 👋🏽 [Entre em contato!](https://www.linkedin.com/in/nicolas-messias/)
