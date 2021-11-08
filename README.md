@@ -56,9 +56,9 @@ $ npm run start
 
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Wefood" title="interface web" src="./public/images/screenshots/WeFood.png" width="400px">
-  
-  ./public/images/screanshots/WeFood.png
+  <img alt="Wefood" title="interface web" src="https://github.com/Nicolas-nk/teste_front_amzmp/blob/49a74877b60d29dae2aaeec9df6c3ff05a41fa9b/public/images/Screenshots/WeFood.png" width="400px">
+     
+     
 </p>
 
 
