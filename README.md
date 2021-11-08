@@ -1,5 +1,5 @@
 <h1 aling="center">
-     Aplicação web "WE:OOD"
+     Aplicação web "WE:FOOD"
 </h1>
 
 ## 💻 Sobre
