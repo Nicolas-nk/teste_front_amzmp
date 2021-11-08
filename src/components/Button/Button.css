@@ -4,7 +4,6 @@
   
   .btn {
     padding: 8px 20px;
-    border-radius: 10px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -28,13 +27,18 @@
   .btn--medium {
     padding: 8px 20px;
     font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10px;
   }
   
   .btn--large {
-    padding: 12px 26px;
+    padding: 16px 36px;
     font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 50px;
   }
-  
+
   .btn--mobile {
     text-align: center;
     border-radius: 4px;
@@ -46,24 +50,27 @@
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
+    margin: 0;
   }
   
   .btn--wide {
-    padding: 12px 64px;
-    font-size: 20px;
+    padding: 10px 16px;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 10px;
   }
   
   .btn--large:hover,
   .btn--medium:hover,
   .btn--mobile:hover {
     transition: all 0.3s ease-out;
-    background: #fff;
-    color: #242424;
+    background: #525252;
+    color: #fff;
   }
   
   .btn--wide:hover {
     color: #fff;
-    background-color: #f00946;
     transition: all 0.2s ease-out;
   }
   
@@ -77,38 +84,36 @@
     width: 100%;
   }
   
-  .blue {
-    background-color: #276afb;
+  .cyan {
+    background-color: #429b86;
     color: #fff;
     border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.420);
   }
   
-  .red {
-    background-color: #f00946;
+  .gradient {
+    background-image: linear-gradient(to right, #38E5AB, #2FC190, #29A67C,  #1C7356);
     color: #fff;
     border: none;
   }
   
   .primary {
-    background-image: linear-gradient(90deg, #39E5AC, #38E5AC);
+    background-image: linear-gradient(180deg, #38E5AB, #39E5AC, #36d6a1);
     color: #fff;
     border: none;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.420);
+	  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.420);
     
   }
   
   .primary:hover {
-    background-color: #fff;
-    color: #242424;
+    color: #525252;
     border: none;
   }
-  
-  .green {
-    background: #25ce4a;
-    color: #fff;
-    border: none;
+
+  .mid{
+    margin-left: 25%;
   }
   
-  .green:hover {
-    background-color: #242424;
+  .end{
+    margin-left: 50%;
   }
